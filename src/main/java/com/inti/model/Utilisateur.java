@@ -4,6 +4,7 @@ public class Utilisateur {
 	private Long idUtilisateur;
 	private String nomUtilisateur;
 	private String prenomUtilisateur;
+	private String login;
 
 	public Utilisateur() {
 
@@ -37,6 +38,14 @@ public class Utilisateur {
 
 	public void setPrenomUtilisateur(String prenomUtilisateur) {
 		this.prenomUtilisateur = prenomUtilisateur;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
 	}
 
 	@Override
