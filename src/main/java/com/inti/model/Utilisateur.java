@@ -3,6 +3,7 @@ package com.inti.model;
 public class Utilisateur {
 	private Long idUtilisateur;
 	private String nomUtilisateur;
+	private String prenomUtilisateur;
 
 	public Utilisateur() {
 
@@ -27,6 +28,15 @@ public class Utilisateur {
 
 	public void setNomUtilisateur(String nomUtilisateur) {
 		this.nomUtilisateur = nomUtilisateur;
+	}
+	
+
+	public String getPrenomUtilisateur() {
+		return prenomUtilisateur;
+	}
+
+	public void setPrenomUtilisateur(String prenomUtilisateur) {
+		this.prenomUtilisateur = prenomUtilisateur;
 	}
 
 	@Override
